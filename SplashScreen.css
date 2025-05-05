@@ -1,0 +1,19 @@
+.splash-screen {
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    z-index: 9999; /* Make sure it’s on top */
+    transition: opacity 1s ease-in-out; /* Transition effect */
+  }
+  
+  .splash-screen img {
+    max-width: 100%; /* Responsive image size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
